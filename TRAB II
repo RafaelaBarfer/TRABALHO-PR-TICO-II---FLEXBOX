@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <title>Trabalho</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: sans-serif;
+    }
+
+    .cabeca {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: green;
+        color: white;
+        padding: 15px;
+    }
+
+    .meio {
+        display: flex;
+    }
+
+    .itemAmeio {
+        background-color: orangered;
+        color: white;
+        padding: 20px;
+        width: 20%;
+    }
+
+    .itemBmeio {
+        background-color: blue;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+    }
+
+    .resumo-container {
+        display: flex;
+        gap: 15px;
+        margin-bottom: 20px;
+    }
+
+    .resumo {
+        background-color: pink;
+        color: white;
+        padding: 15px;
+        text-align: center;
+        flex-grow: 1;
+    }
+
+    .card-container {
+        display: flex;
+        gap: 15px;
+    }
+
+    .card {
+        background-color: purple;
+        color: white;
+        padding: 15px;
+        text-align: center;
+        flex-grow: 1;
+    }
+
+    .rodape {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: darkgray;
+        color: white;
+        padding: 15px;
+        text-align: center;
+    }
+
+</style>
+
+</head>
+<body>
+    <div class="cabeca">Cabeçalho</div>
+
+<div class="meio">
+    <div class="itemAmeio">Menu Lateral</div>
+    <div class="itemBmeio">
+        <div class="resumo-container">
+            <div class="resumo">Resumo 1</div>
+            <div class="resumo">Resumo 2</div>
+            <div class="resumo">Resumo 3</div>
+        </div>
+        <div class="card-container">
+            <div class="card">Card 1</div>
+            <div class="card">Card 2</div>
+            <div class="card">Card 3</div>
+            <div class="card">Card 4</div>
+            <div class="card">Card 5</div>
+        </div>
+    </div>
+</div>
+
+<div class="rodape">Rodapé</div>
+
+</body>
+</html>
